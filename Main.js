@@ -41,7 +41,7 @@ function StartSimulation(){
   const M2 = pow(100, digits - 1);
   block2 = new Block(300, 100, M2, -1 / timeSteps, 20);
   m1 = 100;
-  m2 = M2;
+  m2 = M2 * 100;
 }
 
 function draw() {
